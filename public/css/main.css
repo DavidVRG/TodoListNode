@@ -149,7 +149,7 @@ header{
     gap: 10px;
     margin-bottom: 2rem;
 }
-.container .btn-group button, .addUI button{
+.container .btn-group button, .addUI button,  .updateTodo button{
     padding: 0.7rem 1.5rem;
     background-color: #e63946;
     border: none;
@@ -186,7 +186,7 @@ header{
 }
 .container tbody button{
     padding: 0.5rem;
-    margin-bottom: 0.2rem;
+    margin: 0.2rem;
     background-color: #e63946;
     border: none;
     border-radius: 5px;
@@ -198,7 +198,7 @@ header{
     background-color: #cc313e;
 }
 
-.addUI{
+.addUI, .updateTodo{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -208,23 +208,23 @@ header{
     display: none;
     flex-direction: column;
 }
-.addUI h3{
+.addUI h3, .updateTodo h3{
     text-align: center;
     margin-bottom: 1rem;
 }
-.addUI label{
+.addUI label, .updateTodo label{
     text-align: center;
     font-weight: 500;
     margin-bottom: 0.2rem;
 }
-.addUI input{
+.addUI input, .updateTodo input{
     background-color: #457b9d;
     border: none;
     color: #f1faee;
     margin-bottom: 1rem;
     padding: 0.5rem;
 }
-.addUI .exit{
+.addUI .exit, .updateTodo .exitUpdate{
     position: absolute;
     top: 10px;
     right: 10px;

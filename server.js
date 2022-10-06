@@ -32,4 +32,4 @@ app.use('/', indexRouter)
 app.use('/todo', todoRouter)
 
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
